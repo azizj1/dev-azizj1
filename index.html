@@ -57,43 +57,5 @@
         <div class="loader"></div>
     </div>
     <div id="root"></div>
-<script type="text/javascript" src="/lib.js?cf01ea95a7d00c94626b"></script><script type="text/javascript" src="/vendors~main.js?4c8f00b4dc0cdb0f25c8"></script><script type="text/javascript" src="/main.js?d0df5fe6b7ab72ac80b8"></script></body>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var fx = {
-            animate: function(options) {
-                var start = new Date;
-                var id = setInterval(function() {
-                    var timePassed = new Date - start;
-                    var progress = timePassed / options.duration;
-                    if (progress > 1) {
-                        progress = 1;
-                    }
-                    options.progress = progress;
-                    var delta = options.delta(progress);
-                    options.step(delta);
-                    if (progress == 1) {
-                        clearInterval(id);
-                        if (options.complete) options.complete();
-                    }
-                }, options.delay || 10);
-            },
-            fadeOut: function(element, options) {
-                var to = 1;
-                this.animate({
-                    duration: options.duration,
-                    delta: function(progress) {
-                        progress = this.progress;
-                        return 0.5 - Math.cos(progress * Math.PI);
-                    },
-                    complete: options.complete,
-                    step: function(delta) {
-                        element.style.opacity = to - delta;
-                    }
-                });
-            }
-        };
-        fx.fadeOut(document.getElementById('preloader'), { duration: 1000, complete: function() { document.getElementById('preloader').style.display = 'none' } });
-    });
-</script>
+<script type="text/javascript" src="/lib.js?2c31ca485b635c7a51e3"></script><script type="text/javascript" src="/vendors~main.js?3ba3c05a85f892934469"></script><script type="text/javascript" src="/main.js?0486db6569e6e65c99d8"></script></body>
 </html>

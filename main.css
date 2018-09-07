@@ -1,8 +1,7 @@
-* {
-  font-family: 'PT Sans Caption', sans-serif, 'arial', 'Times New Roman'; }
-
 ._2yyZ {
   text-align: center; }
+  ._2yyZ * {
+    font-family: 'PT Sans Caption', sans-serif, 'arial', 'Times New Roman'; }
   ._2yyZ .MKxW {
     display: inline-block;
     -webkit-transform: skew(-45deg);
@@ -123,35 +122,6 @@
     border-bottom: 8px solid transparent; }
   ._2yyZ ._1lDU {
     height: 150px; } }
-
-._21eW {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  @media (min-width: 768px) {
-    ._21eW {
-      width: 750px; } }
-  @media (min-width: 992px) {
-    ._21eW {
-      width: 970px; } }
-  @media (min-width: 1200px) {
-    ._21eW {
-      width: 1170px; } }
-  ._21eW ._22QN {
-    text-align: center;
-    margin-bottom: 2em; }
-    ._21eW ._22QN h1 {
-      margin-bottom: 0; }
-  ._21eW ._1eE5 {
-    margin: 0 auto; }
 
 /* ==========================================================================
  * FONTS
@@ -281,5 +251,180 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+/* ==========================================================================
+ * FONTS
+ * ========================================================================== */
+/* ==========================================================================
+ * COLORS
+ * ========================================================================== */
+._2yZd {
+  margin-left: -180px;
+  /* "#menu" width */
+  width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  /* so the menu or its navicon stays above all content */
+  background: #191818;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  /*
+    Add that light border to separate items into groups.
+    */
+  /*
+    Change color of the anchor links on hover/focus.
+    */
+  /*
+    This styles a link within a selected menu item `<li>`.
+    */
+  /*
+    This styles the menu heading.
+    */ }
+  ._2yZd.FxE0 {
+    left: 180px;
+    width: 180px; }
+  ._2yZd a {
+    color: #999;
+    border: none;
+    padding: 0.8em 0 0.8em 0.8em; }
+  @media (min-width: 48em) {
+    ._2yZd {
+      left: 180px; } }
+  ._2yZd .pure-menu,
+  ._2yZd .pure-menu ul {
+    border: none;
+    background: transparent; }
+  ._2yZd .pure-menu ul,
+  ._2yZd .pure-menu .menu-item-divided {
+    border-top: 1px solid #333; }
+  ._2yZd .pure-menu li a:hover,
+  ._2yZd .pure-menu li a:focus {
+    background: #333; }
+  ._2yZd .pure-menu-selected a.pure-menu-link {
+    color: #fff; }
+    ._2yZd .pure-menu-selected a.pure-menu-link:visited {
+      color: #fff; }
+  ._2yZd .pure-menu-heading {
+    font-size: 125%;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #fff;
+    margin-top: 0;
+    padding: 0.5em 0.8em;
+    text-transform: uppercase; }
+
+._2I-y {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: fixed;
+  display: block;
+  /* show this only on small screens */
+  top: 0;
+  left: 0;
+  /* "#menu width" */
+  background: #000;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  /* change this value to increase/decrease button size */
+  z-index: 10;
+  width: 2em;
+  height: auto;
+  padding: 2.1em 1.6em; }
+  ._2I-y.FxE0 {
+    left: 180px; }
+  ._2I-y:hover, ._2I-y:focus {
+    background: #000; }
+  ._2I-y span {
+    position: relative;
+    display: block; }
+    ._2I-y span, ._2I-y span::before, ._2I-y span::after {
+      background-color: #fff;
+      width: 100%;
+      height: 0.2em; }
+    ._2I-y span::before, ._2I-y span::after {
+      position: absolute;
+      margin-top: -0.6em;
+      content: ' '; }
+    ._2I-y span::after {
+      margin-top: 0.6em; }
+  @media (min-width: 48em) {
+    ._2I-y {
+      position: fixed;
+      left: 180px;
+      display: none; }
+      ._2I-y.FxE0 {
+        left: 180px; } }
+
+/* ==========================================================================
+ * FONTS
+ * ========================================================================== */
+/* ==========================================================================
+ * COLORS
+ * ========================================================================== */
+body {
+  color: #777;
+  line-height: 1.6; }
+
+._21eW {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: relative;
+  left: 0;
+  padding-left: 0;
+  /*
+    Hides the menu at `48em` (768px), but modify this based on your app's needs.
+    */ }
+  ._21eW ._1Ne0 {
+    margin: 0 auto;
+    padding: 0 2em;
+    margin-bottom: 50px;
+    line-height: 1.6em; }
+    ._21eW ._1Ne0 h2 {
+      margin: 50px 0 20px 0;
+      font-weight: 300;
+      color: #888; }
+  ._21eW ._22QN {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 2.5em 2em 0;
+    border-bottom: 1px solid #eee; }
+    ._21eW ._22QN h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: 300;
+      line-height: 1.2; }
+    ._21eW ._22QN h2 {
+      font-weight: 300;
+      color: #ccc;
+      padding: 0;
+      margin-top: 0; }
+  ._21eW ._1eE5 {
+    margin: 0 auto; }
+  @media (min-width: 48em) {
+    ._21eW {
+      padding-left: 180px;
+      /* left col width "#menu" */
+      left: 0; }
+      ._21eW ._22QN,
+      ._21eW ._1Ne0 {
+        padding-left: 2em;
+        padding-right: 2em; } }
+  @media (max-width: 48em) {
+    ._21eW {
+      /* Only apply this when the window is small. Otherwise, the following
+        case results in extra padding on the left:
+            * Make the window small.
+            * Tap the menu to trigger the active state.
+            * Make the window large again.
+        */ }
+      ._21eW._2Qsh {
+        position: relative;
+        left: 180px; } }
 
 
