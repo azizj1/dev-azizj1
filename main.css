@@ -292,7 +292,7 @@
     color: #999;
     border: none;
     padding: 0.8em 0 0.8em 0.8em; }
-  @media (min-width: 48em) {
+  @media (min-width: 769px) {
     ._2yZd {
       left: 180px; } }
   ._2yZd .pure-menu,
@@ -352,7 +352,7 @@
       content: ' '; }
     ._2I-y span::after {
       margin-top: 0.6em; }
-  @media (min-width: 48em) {
+  @media (min-width: 769px) {
     ._2I-y {
       position: fixed;
       left: 180px;
@@ -377,11 +377,11 @@ body {
   left: 0;
   padding-left: 0;
   /*
-    Hides the menu at `48em` (768px), but modify this based on your app's needs.
+    Hides the menu at `$mobile` (768px), but modify this based on your app's needs.
     */ }
   ._21eW ._1Ne0 {
     margin: 0 auto;
-    padding: 0 2em;
+    padding: 0 0.5em;
     margin-bottom: 50px;
     line-height: 1.6em; }
     ._21eW ._1Ne0 h2 {
@@ -405,8 +405,18 @@ body {
       padding: 0;
       margin-top: 0; }
   ._21eW ._1eE5 {
-    margin: 0 auto; }
-  @media (min-width: 48em) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-top: 2em; }
+  ._21eW ._3r0G {
+    margin-top: 2em;
+    width: auto; }
+  @media (min-width: 769px) {
     ._21eW {
       padding-left: 180px;
       /* left col width "#menu" */
@@ -415,7 +425,7 @@ body {
       ._21eW ._1Ne0 {
         padding-left: 2em;
         padding-right: 2em; } }
-  @media (max-width: 48em) {
+  @media (max-width: 769px) {
     ._21eW {
       /* Only apply this when the window is small. Otherwise, the following
         case results in extra padding on the left:
@@ -426,5 +436,43 @@ body {
       ._21eW._2Qsh {
         position: relative;
         left: 180px; } }
+
+/* ==========================================================================
+ * FONTS
+ * ========================================================================== */
+/* ==========================================================================
+ * COLORS
+ * ========================================================================== */
+._2npV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 769px) {
+    ._2npV {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      ._2npV ._1-R2 {
+        width: 60%; }
+      ._2npV ._1bB3 {
+        margin-top: -2em;
+        width: 40%; } }
+
+.hcCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 
