@@ -1,27 +1,27 @@
-.Tl61 {
+._2yyZ {
   text-align: center; }
-  .Tl61 * {
+  ._2yyZ * {
     font-family: 'PT Sans Caption', sans-serif, 'arial', 'Times New Roman'; }
-  .Tl61 ._7xZA {
+  ._2yyZ .MKxW {
     display: inline-block;
     -webkit-transform: skew(-45deg);
             transform: skew(-45deg); }
-    .Tl61 ._7xZA .qZEn {
+    ._2yyZ .MKxW ._397p {
       height: 180px;
       overflow: hidden; }
-    .Tl61 ._7xZA:nth-of-type(2) .qZEn {
+    ._2yyZ .MKxW:nth-of-type(2) ._397p {
       width: 130px;
       overflow: hidden;
       position: relative;
       -webkit-box-shadow: inset 20px 0 20px -15px rgba(150, 150, 150, 0.8), 20px 0 20px -15px rgba(150, 150, 150, 0.8);
               box-shadow: inset 20px 0 20px -15px rgba(150, 150, 150, 0.8), 20px 0 20px -15px rgba(150, 150, 150, 0.8); }
-      .Tl61 ._7xZA:nth-of-type(2) .qZEn::after {
+      ._2yyZ .MKxW:nth-of-type(2) ._397p::after {
         left: -8px; }
-    .Tl61 ._7xZA:nth-of-type(1),
-    .Tl61 ._7xZA:nth-of-type(3) .qZEn {
+    ._2yyZ .MKxW:nth-of-type(1),
+    ._2yyZ .MKxW:nth-of-type(3) ._397p {
       width: 250px; }
-      .Tl61 ._7xZA:nth-of-type(1)::after,
-      .Tl61 ._7xZA:nth-of-type(3) .qZEn::after {
+      ._2yyZ .MKxW:nth-of-type(1)::after,
+      ._2yyZ .MKxW:nth-of-type(3) ._397p::after {
         content: '';
         position: absolute;
         right: -8px;
@@ -32,15 +32,15 @@
         background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(173, 173, 173, 0.8)), to(transparent));
         background: linear-gradient(90deg, transparent, rgba(173, 173, 173, 0.8), transparent);
         border-radius: 50%; }
-    .Tl61 ._7xZA:nth-of-type(3) .qZEn::after {
+    ._2yyZ .MKxW:nth-of-type(3) ._397p::after {
       left: -8px; }
-    .Tl61 ._7xZA:nth-of-type(2) ._1mhK {
+    ._2yyZ .MKxW:nth-of-type(2) ._21jO {
       left: -10%; }
-    .Tl61 ._7xZA:nth-of-type(1) ._1mhK {
+    ._2yyZ .MKxW:nth-of-type(1) ._21jO {
       right: -20%; }
-    .Tl61 ._7xZA:nth-of-type(3) ._1mhK {
+    ._2yyZ .MKxW:nth-of-type(3) ._21jO {
       left: -20%; }
-  .Tl61 ._1mhK {
+  ._2yyZ ._21jO {
     width: 150px;
     height: 150px;
     line-height: 150px;
@@ -54,12 +54,12 @@
     display: inline-block;
     -webkit-transform: skew(45deg);
             transform: skew(45deg); }
-  .Tl61 h2 {
+  ._2yyZ h2 {
     font-size: 32px;
     color: #a2a2a2;
     font-weight: bold;
     padding-bottom: 20px; }
-  .Tl61 ._2_CO {
+  ._2yyZ ._2czz {
     top: -190px;
     left: 30%;
     width: 80px;
@@ -73,7 +73,7 @@
     color: #a2a2a2;
     border-radius: 50%;
     font-style: italic; }
-  .Tl61 ._2BpP {
+  ._2yyZ ._3Dm3 {
     top: 70%;
     right: 0%;
     border-left: 20px solid #535353;
@@ -86,41 +86,41 @@
     content: '';
     width: 0;
     height: 0; }
-  .Tl61 .zzzw {
+  ._2yyZ ._1lDU {
     margin-top: 10%;
     position: relative;
     height: 250px;
     padding-top: 40px; }
 
 @media (max-width: 767px) {
-  .Tl61 ._7xZA .qZEn {
+  ._2yyZ .MKxW ._397p {
     height: 100px; }
-  .Tl61 ._7xZA:nth-of-type(2) .qZEn {
+  ._2yyZ .MKxW:nth-of-type(2) ._397p {
     width: 80px; }
-  .Tl61 ._7xZA:nth-of-type(1) .qZEn,
-  .Tl61 ._7xZA:nth-of-type(3) .qZEn {
+  ._2yyZ .MKxW:nth-of-type(1) ._397p,
+  ._2yyZ .MKxW:nth-of-type(3) ._397p {
     width: 100px; }
-  .Tl61 ._1mhK {
+  ._2yyZ ._21jO {
     width: 80px;
     height: 80px;
     line-height: 80px;
     font-size: 52px; }
-  .Tl61 h2 {
+  ._2yyZ h2 {
     font-size: 24px; }
-  .Tl61 ._2_CO {
+  ._2yyZ ._2czz {
     top: -110px;
     left: 15%;
     width: 40px;
     height: 40px;
     line-height: 40px;
     font-size: 18px; }
-  .Tl61 span._2BpP {
+  ._2yyZ span._3Dm3 {
     top: 70%;
     right: -3%;
     border-left: 10px solid #535353;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent; }
-  .Tl61 .zzzw {
+  ._2yyZ ._1lDU {
     height: 150px; } }
 
 /* ==========================================================================
@@ -129,13 +129,13 @@
 /* ==========================================================================
  * COLORS
  * ========================================================================== */
-._3I6F {
+.folV {
   width: 40px;
   height: 40px;
   position: relative; }
 
-._1lOg,
-._3fcu {
+._1or5,
+._2X9T {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -144,14 +144,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: CeYb 2s infinite ease-in-out;
-          animation: CeYb 2s infinite ease-in-out; }
+  -webkit-animation: _13t5 2s infinite ease-in-out;
+          animation: _13t5 2s infinite ease-in-out; }
 
-._3fcu {
+._2X9T {
   -webkit-animation-delay: -1s;
           animation-delay: -1s; }
 
-@-webkit-keyframes CeYb {
+@-webkit-keyframes _13t5 {
   0%,
   100% {
     -webkit-transform: scale(0);
@@ -160,7 +160,7 @@
     -webkit-transform: scale(1);
             transform: scale(1); } }
 
-@keyframes CeYb {
+@keyframes _13t5 {
   0%,
   100% {
     -webkit-transform: scale(0);
@@ -175,7 +175,7 @@
 /* ==========================================================================
  * COLORS
  * ========================================================================== */
-._3ooF {
+._3jhf {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,59 +187,59 @@
   border-left-color: rgba(0, 0, 0, 0.1);
   border-left-width: 5px;
   font-size: 0.9rem; }
-  ._3ooF .LA6r {
+  ._3jhf ._3_M8 {
     margin-left: auto;
     color: #000;
     opacity: 0.5;
     cursor: pointer;
     font-weight: bold; }
-    ._3ooF .LA6r:hover, ._3ooF .LA6r:focus {
+    ._3jhf ._3_M8:hover, ._3jhf ._3_M8:focus {
       opacity: 0.75; }
 
-._1H-b {
+._2MkZ {
   color: #3c763d;
   background-color: #dff0d8;
   border-color: #d6e9c6; }
-  ._1H-b hr {
+  ._2MkZ hr {
     border-top-color: #c9e2b3; }
-  ._1H-b ._3kfe {
+  ._2MkZ .xEtu {
     color: #2b542c; }
 
-._2nPl {
+._2hq_ {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1; }
 
-._2nPl hr {
+._2hq_ hr {
   border-top-color: #a6e1ec; }
 
-._2nPl ._3kfe {
+._2hq_ .xEtu {
   color: #245269; }
 
-._2DP3 {
+._2Xlr {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc; }
 
-._2DP3 hr {
+._2Xlr hr {
   border-top-color: #f7e1b5; }
 
-._2DP3 ._3kfe {
+._2Xlr .xEtu {
   color: #66512c; }
 
-._2pji {
+.f-oV {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
   border-left-color: #a94442; }
 
-._2pji hr {
+.f-oV hr {
   border-top-color: #e4b9c0; }
 
-._2pji ._3kfe {
+.f-oV .xEtu {
   color: #843534; }
 
-._2C9L {
+._1r3Z {
   padding: 7px;
   margin-bottom: 0;
   border: 1px solid #c60c30;
@@ -258,7 +258,7 @@
 /* ==========================================================================
  * COLORS
  * ========================================================================== */
-._1MIF {
+._2yZd {
   margin-left: -180px;
   /* "#menu" width */
   width: 180px;
@@ -285,31 +285,31 @@
   /*
     This styles the menu heading.
     */ }
-  ._1MIF._3LPR {
+  ._2yZd.FxE0 {
     left: 180px;
     width: 180px; }
-  ._1MIF a {
+  ._2yZd a {
     color: #999;
     border: none;
     padding: 0.8em 0 0.8em 0.8em; }
   @media (min-width: 769px) {
-    ._1MIF {
+    ._2yZd {
       left: 180px; } }
-  ._1MIF .pure-menu,
-  ._1MIF .pure-menu ul {
+  ._2yZd .pure-menu,
+  ._2yZd .pure-menu ul {
     border: none;
     background: transparent; }
-  ._1MIF .pure-menu ul,
-  ._1MIF .pure-menu .menu-item-divided {
+  ._2yZd .pure-menu ul,
+  ._2yZd .pure-menu .menu-item-divided {
     border-top: 1px solid #333; }
-  ._1MIF .pure-menu li a:hover,
-  ._1MIF .pure-menu li a:focus {
+  ._2yZd .pure-menu li a:hover,
+  ._2yZd .pure-menu li a:focus {
     background: #333; }
-  ._1MIF .pure-menu-selected a.pure-menu-link {
+  ._2yZd .pure-menu-selected a.pure-menu-link {
     color: #fff; }
-    ._1MIF .pure-menu-selected a.pure-menu-link:visited {
+    ._2yZd .pure-menu-selected a.pure-menu-link:visited {
       color: #fff; }
-  ._1MIF .pure-menu-heading {
+  ._2yZd .pure-menu-heading {
     font-size: 125%;
     font-weight: 300;
     letter-spacing: 0.1em;
@@ -318,7 +318,7 @@
     padding: 0.5em 0.8em;
     text-transform: uppercase; }
 
-._4PgF {
+._2I-y {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   position: fixed;
@@ -335,29 +335,29 @@
   width: 2em;
   height: auto;
   padding: 2.1em 1.6em; }
-  ._4PgF._3LPR {
+  ._2I-y.FxE0 {
     left: 180px; }
-  ._4PgF:hover, ._4PgF:focus {
+  ._2I-y:hover, ._2I-y:focus {
     background: #000; }
-  ._4PgF span {
+  ._2I-y span {
     position: relative;
     display: block; }
-    ._4PgF span, ._4PgF span::before, ._4PgF span::after {
+    ._2I-y span, ._2I-y span::before, ._2I-y span::after {
       background-color: #fff;
       width: 100%;
       height: 0.2em; }
-    ._4PgF span::before, ._4PgF span::after {
+    ._2I-y span::before, ._2I-y span::after {
       position: absolute;
       margin-top: -0.6em;
       content: ' '; }
-    ._4PgF span::after {
+    ._2I-y span::after {
       margin-top: 0.6em; }
   @media (min-width: 769px) {
-    ._4PgF {
+    ._2I-y {
       position: fixed;
       left: 180px;
       display: none; }
-      ._4PgF._3LPR {
+      ._2I-y.FxE0 {
         left: 180px; } }
 
 /* ==========================================================================
@@ -366,98 +366,14 @@
 /* ==========================================================================
  * COLORS
  * ========================================================================== */
-body {
-  color: #777;
-  line-height: 1.6; }
-
-._2Kw_ {
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  position: relative;
-  left: 0;
-  padding-left: 0;
-  /*
-    Hides the menu at `$mobile` (768px), but modify this based on your app's needs.
-    */ }
-  ._2Kw_ ._3tuF {
-    margin: 0 auto;
-    margin-bottom: 50px;
-    line-height: 1.6em; }
-    ._2Kw_ ._3tuF h2,
-    ._2Kw_ ._3tuF h3 {
-      margin: 50px 0 20px 0;
-      font-weight: 300;
-      color: #888; }
-    ._2Kw_ ._3tuF h3 {
-      margin-top: 30px;
-      font-size: 1.1em; }
-  ._2Kw_ ._2pVw {
-    margin: 0;
-    color: #333;
-    text-align: center;
-    padding: 2.5em 2em 0;
-    border-bottom: 1px solid #eee; }
-    ._2Kw_ ._2pVw h1 {
-      margin: 0;
-      font-size: 3em;
-      font-weight: 300;
-      line-height: 1.2; }
-    ._2Kw_ ._2pVw h2 {
-      font-weight: 300;
-      font-size: 1.2em;
-      color: #ccc;
-      padding: 0;
-      margin-top: 0; }
-  ._2Kw_ ._8ndr {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-    margin-top: 2em; }
-  ._2Kw_ .tWSf {
-    margin: 2em 0.5em 0 0.5em;
-    width: auto; }
-    @media (min-width: 769px) {
-      ._2Kw_ .tWSf {
-        margin-left: 2em;
-        margin-right: 2em; } }
-  @media (min-width: 769px) {
-    ._2Kw_ {
-      padding-left: 180px;
-      /* left col width "#menu" */
-      left: 0; }
-      ._2Kw_ ._2pVw {
-        padding-left: 2em;
-        padding-right: 2em; } }
-  @media (max-width: 769px) {
-    ._2Kw_ {
-      /* Only apply this when the window is small. Otherwise, the following
-        case results in extra padding on the left:
-            * Make the window small.
-            * Tap the menu to trigger the active state.
-            * Make the window large again.
-        */ }
-      ._2Kw_._3yvj {
-        position: relative;
-        left: 180px; } }
-
-/* ==========================================================================
- * FONTS
- * ========================================================================== */
-/* ==========================================================================
- * COLORS
- * ========================================================================== */
-._3AAb {
+._30wG {
   padding: 0 0.5em; }
   @media (min-width: 769px) {
-    ._3AAb {
+    ._30wG {
       padding-left: 2em;
       padding-right: 2em; } }
 
-._33fZ {
+._30hW {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,27 +381,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  ._33fZ ._2_Ke {
+  ._30hW ._3vCH {
     width: 100%; }
-  ._33fZ ._1Pl-,
-  ._33fZ ._2deW {
+  ._30hW ._2jJv,
+  ._30hW ._1lio {
     display: none; }
   @media (min-width: 992px) {
-    ._33fZ {
+    ._30hW {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; }
-      ._33fZ ._1Pl- {
+      ._30hW ._2jJv {
         display: block;
         width: 60%; }
-      ._33fZ ._2deW {
+      ._30hW ._1lio {
         display: block;
         margin-top: -2em;
         width: 40%; }
-      ._33fZ ._3KpO {
+      ._30hW ._1WAf {
         width: 100%; }
-      ._33fZ ._2_Ke {
+      ._30hW ._3vCH {
         display: none; } }
 
 .hcCenter {
@@ -500,7 +416,7 @@ body {
       -ms-flex-align: center;
           align-items: center; }
 
-._1LpN {
+.FMCn {
   -webkit-column-width: 21.5rem;
           column-width: 21.5rem;
   width: 100%;
@@ -508,7 +424,7 @@ body {
           column-gap: 2rem;
   position: relative;
   color: #444; }
-  ._1LpN::before {
+  .FMCn::before {
     background: #fff;
     top: 0;
     left: 0;
@@ -516,7 +432,7 @@ body {
     position: absolute;
     height: 1px;
     content: ''; }
-  ._1LpN dl {
+  .FMCn dl {
     -webkit-column-break-inside: avoid;
             break-inside: avoid-column;
     padding: 0;
@@ -525,13 +441,13 @@ body {
     width: 100%;
     overflow: auto;
     border-bottom: 1px solid #e6e6e6; }
-    ._1LpN dl dt {
+    .FMCn dl dt {
       margin: 0;
       padding: 0.75rem;
       width: 50%;
       display: table-cell;
       font-weight: bold; }
-    ._1LpN dl dd {
+    .FMCn dl dd {
       display: table-cell;
       padding: 0.75rem;
       width: 50%;
@@ -539,14 +455,14 @@ body {
       vertical-align: top;
       color: foreground-color(#f8f8f8);
       background: #f8f8f8; }
-      ._1LpN dl dd div,
-      ._1LpN dl dd a {
+      .FMCn dl dd div,
+      .FMCn dl dd a {
         text-decoration: none;
         display: block; }
-        ._1LpN dl dd div + div,
-        ._1LpN dl dd div + a,
-        ._1LpN dl dd a + div,
-        ._1LpN dl dd a + a {
+        .FMCn dl dd div + div,
+        .FMCn dl dd div + a,
+        .FMCn dl dd a + div,
+        .FMCn dl dd a + a {
           margin-top: 0.25rem; }
 
 /* ==========================================================================
@@ -555,16 +471,16 @@ body {
 /* ==========================================================================
  * COLORS
  * ========================================================================== */
-.LD23 {
+._1oxC {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px; }
-  .LD23 .sicon {
+  ._1oxC .sicon {
     fill: #a1a4ab;
     width: 20px;
     height: 20px; }
-  .LD23 > div {
+  ._1oxC > div {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -579,7 +495,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    .LD23 > div > div {
+    ._1oxC > div > div {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -590,14 +506,26 @@ body {
       background: #2f3542;
       width: 80%;
       margin: 0 auto 0 3em;
-      border-radius: 5px; }
-      .LD23 > div > div > div._2MT7 {
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px; }
+      ._1oxC > div > div::after {
+        content: ' ';
+        margin: 0 0 0 auto;
         height: 100%;
-        width: 3em;
+        width: 0.5em;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px; }
+      ._1oxC > div > div > div._2coe {
+        height: 100%;
+        width: 3.5em;
         background: #fff;
         margin-left: 1em;
-        border: 0.1px solid #ddd; }
-        .LD23 > div > div > div._2MT7._3sOZ {
+        border: 0.1px solid #ddd;
+        border-radius: 2px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        ._1oxC > div > div > div._2coe._2q9i {
           background-color: #eee;
           color: white;
           border: 0.1px solid #eee;
@@ -610,9 +538,19 @@ body {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          .LD23 > div > div > div._2MT7._3sOZ .sicon {
+          ._1oxC > div > div > div._2coe._2q9i .sicon {
             fill: white; }
-      .LD23 > div > div > div._1g48 {
+          ._1oxC > div > div > div._2coe._2q9i > div::after {
+            background: #eee; }
+        ._1oxC > div > div > div._2coe::after {
+          content: ' ';
+          margin: 0 0 0 auto;
+          height: 100%;
+          width: 0.5em;
+          background: #2f3542;
+          border-top-left-radius: 2px;
+          border-bottom-left-radius: 2px; }
+      ._1oxC > div > div > div._16a5 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -623,12 +561,12 @@ body {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; }
-        .LD23 > div > div > div._1g48 > span {
+        ._1oxC > div > div > div._16a5 > span {
           color: #8e99af;
           font-size: 0.7em;
           margin-left: 1em;
           line-height: 1.3; }
-    .LD23 > div > span {
+    ._1oxC > div > span {
       -webkit-transform: rotate(-90deg);
               transform: rotate(-90deg);
       -webkit-transform-origin: bottom;
@@ -640,48 +578,142 @@ body {
       white-space: nowrap;
       margin-left: 20px;
       margin-top: 12px; }
-  .LD23 .pVvc {
-    background-color: #f8f8f8;
+  ._1oxC ._1Kx1 {
+    background-color: #eee;
     border: 0.1px solid #ddd; }
-  .LD23 .dbjM {
+    ._1oxC ._1Kx1 > div::after {
+      background: #eee; }
+  ._1oxC ._2Cl8 {
     background-color: #2980b9;
     color: #6ab0de; }
-    .LD23 .dbjM .sicon {
+    ._1oxC ._2Cl8 .sicon {
       fill: #409ad5; }
-    .LD23 .dbjM > span {
+    ._1oxC ._2Cl8 > div::after {
+      background: #2980b9; }
+    ._1oxC ._2Cl8 > span {
       margin-top: 10px; }
-  .LD23 ._3Hv3 {
+  ._1oxC ._3vul {
     background-color: #8e44ad;
     color: #ba87d0; }
-    .LD23 ._3Hv3 .sicon {
+    ._1oxC ._3vul .sicon {
       fill: #a563c1; }
-    .LD23 ._3Hv3 > span {
+    ._1oxC ._3vul > div::after {
+      background: #8e44ad; }
+    ._1oxC ._3vul > span {
       margin-top: 15px; }
-  .LD23 ._3wXJ {
+  ._1oxC .nXM6 {
     background-color: #4b4b4b;
     color: #7e7e7e; }
-    .LD23 ._3wXJ .sicon {
+    ._1oxC .nXM6 .sicon {
       fill: #656565; }
-    .LD23 ._3wXJ > span {
+    ._1oxC .nXM6 > div::after {
+      background: #4b4b4b; }
+    ._1oxC .nXM6 > span {
       margin-top: 15px; }
-  .LD23 ._3jkM {
+  ._1oxC .TJq7 {
     background-color: #34495e;
     color: #587ca0; }
-    .LD23 ._3jkM .sicon {
+    ._1oxC .TJq7 .sicon {
       fill: #46637f; }
-    .LD23 ._3jkM span {
+    ._1oxC .TJq7 > div::after {
+      background: #34495e; }
+    ._1oxC .TJq7 span {
       margin-top: 13px; }
-  .LD23 ._1rWA {
+  ._1oxC ._1Ztn {
     -webkit-box-flex: 3;
         -ms-flex-positive: 3;
             flex-grow: 3; }
   @media (max-width: 992px) {
-    .LD23 {
+    ._1oxC {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
-      .LD23 > div {
+      ._1oxC > div {
         width: 25%; }
-      .LD23 > div._1rWA {
+      ._1oxC > div._1Ztn {
         width: 100%; } }
+
+/* ==========================================================================
+ * FONTS
+ * ========================================================================== */
+/* ==========================================================================
+ * COLORS
+ * ========================================================================== */
+body {
+  color: #777;
+  line-height: 1.6; }
+
+._21eW {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: relative;
+  left: 0;
+  padding-left: 0;
+  /*
+    Hides the menu at `$mobile` (768px), but modify this based on your app's needs.
+    */ }
+  ._21eW ._1Ne0 {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: 1.6em; }
+    ._21eW ._1Ne0 h2,
+    ._21eW ._1Ne0 h3 {
+      margin: 50px 0 20px 0;
+      font-weight: 300;
+      color: #888; }
+    ._21eW ._1Ne0 h3 {
+      margin-top: 30px;
+      font-size: 1.1em; }
+  ._21eW ._22QN {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 2.5em 2em 0;
+    border-bottom: 1px solid #eee; }
+    ._21eW ._22QN h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: 300;
+      line-height: 1.2; }
+    ._21eW ._22QN h2 {
+      font-weight: 300;
+      font-size: 1.2em;
+      color: #ccc;
+      padding: 0;
+      margin-top: 0; }
+  ._21eW ._1eE5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-top: 2em; }
+  ._21eW ._3r0G {
+    margin: 2em 0.5em 0 0.5em;
+    width: auto; }
+    @media (min-width: 769px) {
+      ._21eW ._3r0G {
+        margin-left: 2em;
+        margin-right: 2em; } }
+  @media (min-width: 769px) {
+    ._21eW {
+      padding-left: 180px;
+      /* left col width "#menu" */
+      left: 0; }
+      ._21eW ._22QN {
+        padding-left: 2em;
+        padding-right: 2em; } }
+  @media (max-width: 769px) {
+    ._21eW {
+      /* Only apply this when the window is small. Otherwise, the following
+        case results in extra padding on the left:
+            * Make the window small.
+            * Tap the menu to trigger the active state.
+            * Make the window large again.
+        */ }
+      ._21eW._2Qsh {
+        position: relative;
+        left: 180px; } }
 
 
