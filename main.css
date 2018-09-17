@@ -633,6 +633,8 @@ Hides the menu at `48em` (768px), but modify this based on your app's needs.
     ._30wG {
       padding-left: 2em;
       padding-right: 2em; } }
+  ._30wG p {
+    margin: 0; }
 
 ._30hW {
   display: -webkit-box;
