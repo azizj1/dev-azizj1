@@ -803,14 +803,6 @@ Hides the menu at `48em` (768px), but modify this based on your app's needs.
             fill: white; }
           ._1oxC > div > div > div._2coe._2q9i > div::after {
             background: #eee; }
-        ._1oxC > div > div > div._2coe::after {
-          content: ' ';
-          margin: 0 0 0 auto;
-          height: 100%;
-          width: 0.5em;
-          background: #2f3542;
-          border-top-left-radius: 2px;
-          border-bottom-left-radius: 2px; }
       ._1oxC > div > div > div._16a5 {
         display: -webkit-box;
         display: -ms-flexbox;
